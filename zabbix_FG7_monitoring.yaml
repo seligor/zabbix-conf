@@ -1,0 +1,2690 @@
+zabbix_export:
+  version: '6.0'
+  date: '2024-04-29T17:02:50Z'
+  groups:
+    -
+      uuid: a571c0d144b14fd4a87a9d9b2aa9fcd6
+      name: Templates/Applications
+  templates:
+    -
+      uuid: b30d1195ea99480985641e0c1bca3e5a
+      template: FG7_Agent_processes_Active_agent
+      name: FG7_Agent_processes_Active_agent
+      groups:
+        -
+          name: Templates/Applications
+      items:
+        -
+          uuid: 825da26b44744eff85eff7d5348b6c12
+          name: Capturer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: ade6975fca1e4d2e8cee2bb9507d2431
+          name: Capturer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 99d9bd7aec484bb79753c4ddfb5c5a16
+          name: Capturer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 3360ce5c19854adfada0c026b66b2018
+          name: Capturer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 54d057afc7d746069db2dc0e72154c78
+          name: Capturer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: b328047bb1664359b1d3a72f73ec56ab
+          name: Capturer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_Working_set
+          value_type: FLOAT
+        -
+          uuid: f59f9a6775aa43e48fe5685a1fd2d231
+          name: Capturer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgstCapturer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 2ad15f55744d4372a8dbe5aa53e4de0a
+          name: EpaCss_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 71944f391cb649b5a16182a9bd093b7a
+          name: EpaCss_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_IOPS
+          value_type: FLOAT
+        -
+          uuid: f1facc6824cf4327830362711d74ff08
+          name: EpaCss_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 6df956aafc654dc4856b76a82e7cc460
+          name: EpaCss_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 7795729045054be4ad9017090f3979cc
+          name: EpaCss_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 0d4ec1011fb247f6884ec49b0e20e0ea
+          name: EpaCss_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_Working_set
+          value_type: FLOAT
+        -
+          uuid: e9566d84331e4d848e058b9b12d9b8d8
+          name: EpaCss_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgstEpaCss_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 1d44e55eaf824cc4b9bcdcf00e45c80b
+          name: EPAgentHost_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 280964d42cba4473aaa6c9f760c6aa60
+          name: EPAgentHost_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_IOPS
+          value_type: FLOAT
+        -
+          uuid: 14fdd745f5cc48eda2726620dacd3a8d
+          name: EPAgentHost_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: b9f0bff29b6b475eaf9152380e636d04
+          name: EPAgentHost_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: bdf899e1c82f4229ad3e636e5a4ae9cd
+          name: EPAgentHost_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: d18a59df1f2243ca8da921d6d507e788
+          name: EPAgentHost_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_Working_set
+          value_type: FLOAT
+        -
+          uuid: e3e2d111c06b40a9bf572b7e1a77f80d
+          name: EPAgentHost_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentHost_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: ec69afeb61404c4d8856dac8a585886c
+          name: EPAgentSvcHost_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 21f859bd8e664b938cd2817a828b1c02
+          name: EPAgentSvcHost_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_IOPS
+          value_type: FLOAT
+        -
+          uuid: 51f99971d4b743bd87d8812e547b080d
+          name: EPAgentSvcHost_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: c4b0ada7feae4ea4ad2309533e67d199
+          name: EPAgentSvcHost_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 857d4c62c3d4424b9958643cb881fbf4
+          name: EPAgentSvcHost_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 1020069c01b348aa9a0c510a0ef1de4f
+          name: EPAgentSvcHost_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_Working_set
+          value_type: FLOAT
+        -
+          uuid: c52abdc229fb4a57bac7e87eb475e4ac
+          name: EPAgentSvcHost_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_FgStEPAgentSvcHost_Write_Ops
+          value_type: FLOAT
+      dashboards:
+        -
+          uuid: 4ccb86e2732a41a4838ef33c0acc051f
+          name: 'FG7_Agent dashboard'
+          pages:
+            -
+              widgets:
+                -
+                  type: GRAPH_CLASSIC
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent CPU time'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '15'
+                  width: '24'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent IOPS'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '5'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent Private bytes'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  'y': '5'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent Working set'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '10'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent Read OPS'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  'y': '10'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent Write OPS'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Agent_processes_Active_agent
+                        name: 'Agent Thread count'
+    -
+      uuid: 98d8411e579c486fba49928d57102f61
+      template: FG7_Consoles_Active_agent
+      name: FG7_Consoles_Active_agent
+      groups:
+        -
+          name: Templates/Applications
+      items:
+        -
+          uuid: c65eb7e6c5d048f3b645454cc9609ecf
+          name: ST_AdminConsole_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 9f9df68809174c37a452883fd561af23
+          name: ST_AdminConsole_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_IOPS
+          value_type: FLOAT
+        -
+          uuid: d5c6c4b867c04c859915f9ed1d33bfb9
+          name: ST_AdminConsole_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 87de8d56f6704ff0b7c72274dedf146f
+          name: ST_AdminConsole_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 8dae33677de242e4b73b090583349b67
+          name: ST_AdminConsole_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 64b2c4d95467495fa9034beaad94e33f
+          name: ST_AdminConsole_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_Working_set
+          value_type: FLOAT
+        -
+          uuid: 38fa8bd7c2954245aed8d8ae31c4b00a
+          name: ST_AdminConsole_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_AdminConsole_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 0ba4d4a4981b4271a30bfade45bbd382
+          name: ST_SearchClient_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: dc55eb0981154f41957447ee3d1cb10f
+          name: ST_SearchClient_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_IOPS
+          value_type: FLOAT
+        -
+          uuid: 5905428c76004ffe84d8878f61ed062a
+          name: ST_SearchClient_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 53a37fdb30f743c99d641d2aaff08e76
+          name: ST_SearchClient_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: eaa6f5f6921845b3997dcfd81a9f2a3f
+          name: ST_SearchClient_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: d8f5127e4a8a4c00903bca182769033a
+          name: ST_SearchClient_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_Working_set
+          value_type: FLOAT
+        -
+          uuid: 8243da6edafb4fa78e361ae68d7d0cc9
+          name: ST_SearchClient_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SearchClient_Write_Ops
+          value_type: FLOAT
+      dashboards:
+        -
+          uuid: 1781cb52c2f14c589206ed3b5d3faa8f
+          name: 'FG7_consoles dashboard'
+          pages:
+            -
+              widgets:
+                -
+                  type: GRAPH_CLASSIC
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles CPU time'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '15'
+                  width: '24'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles IOPS'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '5'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles Private Bytes'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  'y': '5'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles Working_sets'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '10'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles Read OPS'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  'y': '10'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles Write OPS'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Consoles_Active_agent
+                        name: 'Consoles Threads'
+    -
+      uuid: 40e6da2b698243bfb7c68f6a3bb7dd24
+      template: FG7_Server_components_Active_agent
+      name: FG7_Server_components_Active_agent
+      groups:
+        -
+          name: Templates/Applications
+      items:
+        -
+          uuid: de9aa372b6cf42acab1b859fdadeba7e
+          name: ST_CentralServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 02f8ddc5a00440a49122b4da56055bf1
+          name: ST_CentralServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 5876277c24e04e42b6206592a952bb72
+          name: ST_CentralServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 2cb0eb5eb7054ea8a38fdf90b868162e
+          name: ST_CentralServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 865926f9f9934864927c76fd3e55e26a
+          name: ST_CentralServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 4222dcca7d814f50850fe21e3262312a
+          name: ST_CentralServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: e21e1fbe1c8047b99e06506c757c0826
+          name: ST_CentralServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_CentralServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 3d34b9e448244091918370a8162cfae5
+          name: ST_DatabaseCache_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: cbb1dcd613a04965827bdd694ecc5375
+          name: ST_DatabaseCache_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_IOPS
+          value_type: FLOAT
+        -
+          uuid: 6bf6f129e5974903ada2818823627760
+          name: ST_DatabaseCache_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: a6dd70de67dc4918a6a4f102fc4e1aba
+          name: ST_DatabaseCache_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 39fa7bcb23764ae18ac0e188fe726ddb
+          name: ST_DatabaseCache_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: a0d0a5eeef32428eaefe9be1330fb2ec
+          name: ST_DatabaseCache_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_Working_set
+          value_type: FLOAT
+        -
+          uuid: b62a1570976d4423a35c204c4b65ae4d
+          name: ST_DatabaseCache_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_DatabaseCache_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 84f3fc345028468ba14c1522ace3c559
+          name: ST_DeviceInventoryServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 5b832f9368fe48cfae8a18832cc97e28
+          name: ST_DeviceInventoryServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: f3852e4cd1774621802bde56bba2c3ce
+          name: ST_DeviceInventoryServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 184fe24c86f143739f76649471db7177
+          name: ST_DeviceInventoryServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 3ac951ab08614ca6af3d7691ce093670
+          name: ST_DeviceInventoryServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: db46ac16f42a43c0a16d5cd07226ef74
+          name: ST_DeviceInventoryServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 969ac7f71f9d4f848dd9fefb15323775
+          name: ST_DeviceInventoryServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_DeviceInventoryServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 398954af21c5482e8896b7d341932176
+          name: ST_Dfp_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 50be8b593f6e42029b3ff9536604e435
+          name: ST_Dfp_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_IOPS
+          value_type: FLOAT
+        -
+          uuid: c9528797457140cba6448bb9e19718ae
+          name: ST_Dfp_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 2cdf7884c5f24e0eb2598dfdfa7eee9c
+          name: ST_Dfp_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 1e7b4c73acd84502ab2fca3206f3bcc4
+          name: ST_Dfp_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: a98096e23b1544219ee4fee126398f87
+          name: ST_Dfp_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_Working_set
+          value_type: FLOAT
+        -
+          uuid: 583aa7e44c0542e6988baccf4fe58dd0
+          name: ST_Dfp_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_Dfp_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 3d29a9d6e2e1426ab9288049b776a4c9
+          name: ST_EpaControlServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: a14d5c7a57f545fe9f743a6903428531
+          name: ST_EpaControlServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 5459868ece814971bbd123f089ae3b19
+          name: ST_EpaControlServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 18bb6d6b46f143fe8ff926dab7756ef3
+          name: ST_EpaControlServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 87300f2bf588420c93b0ecc1227507ac
+          name: ST_EpaControlServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 0bb859c16785425dba3e35e38c05cc16
+          name: ST_EpaControlServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 450770729fe24bdfaa3d682bb51d4e38
+          name: ST_EpaControlServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_EpaControlServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 2267d3d8b36842b8a52b2c36601e1525
+          name: ST_EpaProxyServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 881a08df70324021b46f9b6dbc22c694
+          name: ST_EpaProxyServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: cbff26099a9b4f7abcc350a0f6598095
+          name: ST_EpaProxyServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: b75aaba617a74d709bf7b7f938a0b0bd
+          name: ST_EpaProxyServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: eab685820bae443d9fe52e6891338782
+          name: ST_EpaProxyServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 518b89d39fd5434fbe30207e4fc7dd7c
+          name: ST_EpaProxyServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 545e7f4b37c04ceb8ac78e2e9f2d53d3
+          name: ST_EpaProxyServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_EpaProxyServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 31d145c239e644bd850aaf28f9dfd822
+          name: ST_HealthMonitor_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 95bc98bfbeb04b15996056368367b2e5
+          name: ST_HealthMonitor_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_IOPS
+          value_type: FLOAT
+        -
+          uuid: a82de26092cb453a877fe2b96ec2f624
+          name: ST_HealthMonitor_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 65c72a29e89244cabe971ce077585950
+          name: ST_HealthMonitor_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 7aafcb26401043e58cd1a7a7bdbb479d
+          name: ST_HealthMonitor_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 29d9099968844d07878ee2b35b5021dc
+          name: ST_HealthMonitor_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_Working_set
+          value_type: FLOAT
+        -
+          uuid: a620ecc35c3540079e696d8f51a35272
+          name: ST_HealthMonitor_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_HealthMonitor_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: b3d6f51fea2740f0ace69618edb81070
+          name: ST_IcapServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: a4e0bcac25e74062bc0d2f462bceb568
+          name: ST_IcapServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 335cdebb0dd24886823e1403e269951e
+          name: ST_IcapServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 848dd2d626994043894f190f95d397e6
+          name: ST_IcapServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 9a8873ff738d43faacd9078919bed30d
+          name: ST_IcapServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 4924460f335444d88b7dd713b095747c
+          name: ST_IcapServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: acfa8ad38ef7495abcb2cf13438caab3
+          name: ST_IcapServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_IcapServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 6761078ffa9b43bea7cac5bea1746455
+          name: ST_InvestigationCenterServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 6460185be06943c4a0c05c16d65d7d30
+          name: ST_InvestigationCenterServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 83bd311e8e424029946bec586fd8e031
+          name: ST_InvestigationCenterServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 7565b32213814c2fb9941d059717db0f
+          name: ST_InvestigationCenterServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: f7c70d3db7bc4aa5b07d3647f6964b54
+          name: ST_InvestigationCenterServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: eb90c36ebd034e4c9b7f1d96d0b5e1e0
+          name: ST_InvestigationCenterServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: aaf48a112c254c639c259a40d21054ff
+          name: ST_InvestigationCenterServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_InvestigationCenterServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 9feadca887934d92b61bebb4ba5cb592
+          name: ST_MailProcessingServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 94b6b2bc6eca4daa91f51456feddca1f
+          name: ST_MailProcessingServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 178e0c5517ae4582b03c0c2ef3a113b3
+          name: ST_MailProcessingServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 54efc3ec44644fab964c84296f8ad318
+          name: ST_MailProcessingServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 59ac333c5dfd42999ab5bba3420c8ae1
+          name: ST_MailProcessingServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: a9cce19115d64fd8b63080a15e5d4374
+          name: ST_MailProcessingServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 4f5e97ebc543488183941d21160aa879
+          name: ST_MailProcessingServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_MailProcessingServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 3e32ad142fa9479492820eb4f626f2fa
+          name: ST_RecognitionServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: f3ae2ebeec1344d3b6ffc59970d82eea
+          name: ST_RecognitionServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 6f3b5e3a89d04b619544133893639673
+          name: ST_RecognitionServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 871301df63264c61992686a57c86daba
+          name: ST_RecognitionServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: f518843307804ababfff7ff9406c19c4
+          name: ST_RecognitionServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: d68ca852dda34c458987753f31656978
+          name: ST_RecognitionServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 0f3061829b4f4c6cb2a226cd39008f2c
+          name: ST_RecognitionServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_RecognitionServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: e66241820b0a49508c9e0f83a5875907
+          name: ST_ReportsServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 3fb9003ffd3c4621a2611b08e822500f
+          name: ST_ReportsServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 6888793272454c86a52717ea36720781
+          name: ST_ReportsServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 89b54922b1f24c4d8e195c9143449d48
+          name: ST_ReportsServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: f06d2d9876d643deb434dab7f0ef0fd3
+          name: ST_ReportsServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 180749ea4b3245eda1afa223900282cf
+          name: ST_ReportsServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 9a26ee8040fd4d6a92f84373851f2d5b
+          name: ST_ReportsServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_ReportsServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 9f82f241801d451fbea78f694faf3fa6
+          name: ST_Searcher_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: b11b6c5a8b1a4ef7af03c4d54653ad70
+          name: ST_Searcher_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_IOPS
+          value_type: FLOAT
+        -
+          uuid: 5b3346ea45a54c709e680184c9ade1c2
+          name: ST_Searcher_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: cb55f993ee34431181c75aa0f1aecad4
+          name: ST_Searcher_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 83a385ee6341411995851482be751365
+          name: ST_Searcher_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: a8cab5a4baf344d5931d947327495220
+          name: ST_Searcher_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_Working_set
+          value_type: FLOAT
+        -
+          uuid: f7326160da3048468a5a903053465b8e
+          name: ST_Searcher_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_Searcher_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 9a3804f724634699b67aa4b8240a3959
+          name: ST_SearchServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: fd0d475ac27a433392ab8163fb54c3bf
+          name: ST_SearchServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 1226fb9c4fba46528ef9290cf49a7afa
+          name: ST_SearchServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: f89dc61ffcb94fc49583ae8d1928d361
+          name: ST_SearchServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 44a998c274994368952330271024478e
+          name: ST_SearchServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_Thread_Count
+          value_type: FLOAT
+          units: ST_SearchServer_Thread_Count
+        -
+          uuid: 34de73704eca4baf8bdce3b457d19f26
+          name: ST_SearchServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 13d78128cc6846cca2acf0c4aef0d4aa
+          name: ST_SearchServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SearchServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 15b83e2638de4a34894bc28e41057946
+          name: ST_SecurityCenterServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: b9813bea162b49d590e30eb015f7ac26
+          name: ST_SecurityCenterServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 1284a92d57474574989e4ff5649c5b7f
+          name: ST_SecurityCenterServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 30c73a3d83c74a93a36f052719c5a58f
+          name: ST_SecurityCenterServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: fc8b0c0800434c109a8583bf001840c2
+          name: ST_SecurityCenterServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 45b89f0e37c8469a94d1ece8342ef8ea
+          name: ST_SecurityCenterServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: d770497f42174df8a8e09d09bb6d1c34
+          name: ST_SecurityCenterServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SecurityCenterServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: b389c11dd9374ad198abd33d3b33b91f
+          name: ST_SiemServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 798aec3d4bf14fbd876faa652db4f263
+          name: ST_SiemServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 7de0c74b02c14ffa9db07afd8cc5d5f2
+          name: ST_SiemServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: ca3ff4768c834289bc88822e12b69d84
+          name: ST_SiemServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: b282af8e50894a32a9492eccbd32206e
+          name: ST_SiemServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 78afde7dcb664fa881668f9ad8937e68
+          name: ST_SiemServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 1b6b10e7a79044b6950e2a1f29c4c229
+          name: ST_SiemServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SiemServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: c4ef5748273e432cafe9160ca369b682
+          name: ST_SpeechProc_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 2debd8c5649c458db3a35e12258a82d8
+          name: ST_SpeechProc_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_IOPS
+          value_type: FLOAT
+        -
+          uuid: e4ae7aec779d4af5ba907f67a8ae878d
+          name: ST_SpeechProc_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 9684fad63abd48c5be00ab018fc73416
+          name: ST_SpeechProc_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 2deeda805208441ea3aa50e6546580d7
+          name: ST_SpeechProc_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 3c5b4751a24842a7bec1cdc480ae499a
+          name: ST_SpeechProc_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_Working_set
+          value_type: FLOAT
+        -
+          uuid: fec8a6d7753a4e42b9ace055f1325b65
+          name: ST_SpeechProc_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechProc_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: 1893504110c2445b8d685fbf346fd3c3
+          name: ST_SpeechServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 78c51ed08fda4635913f216a44eff074
+          name: ST_SpeechServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 005389f82b1d4ee598c1142fa4ac2011
+          name: ST_SpeechServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 692948ccaa5a43beae31709df7be255e
+          name: ST_SpeechServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 002c5035993544419da51265e91ad62c
+          name: ST_SpeechServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: b6853721e3da4ad1b92fb482e5f7627f
+          name: ST_SpeechServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: b005f3890720401cb40dd14d84490052
+          name: ST_SpeechServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_SpeechServer_Write_Ops
+          value_type: FLOAT
+        -
+          uuid: f19e24e33d424ba5a323e2b4968f112e
+          name: ST_UsersAuthServer_CPU_Time
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_CPU_Time
+          value_type: FLOAT
+        -
+          uuid: 665a9c99b0444b359de6746ab67202a2
+          name: ST_UsersAuthServer_IOPS
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_IOPS
+          value_type: FLOAT
+        -
+          uuid: 6d82176584db42a9ac966024e58bbede
+          name: ST_UsersAuthServer_Private_bytes
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_Private_bytes
+          value_type: FLOAT
+        -
+          uuid: 252ac29fd1ce4714914c880a571a85e5
+          name: ST_UsersAuthServer_Read_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_Read_Ops
+          value_type: FLOAT
+        -
+          uuid: 17d702e80d7345e8a7c33878b8d83ff3
+          name: ST_UsersAuthServer_Thread_Count
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_Thread_Count
+          value_type: FLOAT
+        -
+          uuid: 7bd198b8af40434db2bd93c2bcdeff32
+          name: ST_UsersAuthServer_Working_set
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_Working_set
+          value_type: FLOAT
+        -
+          uuid: 90738e4b87144cc192dc7725b63d475f
+          name: ST_UsersAuthServer_Write_Ops
+          type: ZABBIX_ACTIVE
+          key: ST_UsersAuthServer_Write_Ops
+          value_type: FLOAT
+      dashboards:
+        -
+          uuid: 7132d85790be4e9895954b61f4c6d091
+          name: 'FG7 Servrer components'
+          pages:
+            -
+              widgets:
+                -
+                  type: GRAPH_CLASSIC
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: 'FG7 CPU usage'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '15'
+                  width: '24'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: IOPS
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '5'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: 'Private bytes'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  'y': '5'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: 'Working sets'
+                -
+                  type: GRAPH_CLASSIC
+                  'y': '10'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: 'Read ops'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  'y': '10'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: 'Write ops'
+                -
+                  type: GRAPH_CLASSIC
+                  x: '12'
+                  width: '12'
+                  height: '5'
+                  fields:
+                    -
+                      type: GRAPH
+                      name: graphid
+                      value:
+                        host: FG7_Server_components_Active_agent
+                        name: 'Thread counts'
+  graphs:
+    -
+      uuid: 5a6559272191410097cf39699ff253bd
+      name: 'Agent CPU time'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_CPU_Time
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_CPU_Time
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_CPU_Time
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_CPU_Time
+    -
+      uuid: 0ff18e89051143eb9fb547a7f5baceb0
+      name: 'Agent IOPS'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_IOPS
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_IOPS
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_IOPS
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_IOPS
+    -
+      uuid: ab8df50869f04b87aacac6e969d2dd49
+      name: 'Agent Private bytes'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_Private_bytes
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_Private_bytes
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_Private_bytes
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_Private_bytes
+    -
+      uuid: 9d105f34debf4b4ba9759bd972ca485d
+      name: 'Agent Read OPS'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_Read_Ops
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_Read_Ops
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_Read_Ops
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_Read_Ops
+    -
+      uuid: 149645cae655438cba6ced7b1f11d729
+      name: 'Agent Thread count'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_Thread_Count
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_Thread_Count
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_Thread_Count
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_Thread_Count
+    -
+      uuid: 85e5627201e74b21ba21f06533c91d02
+      name: 'Agent Working set'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_Working_set
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_Working_set
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_Working_set
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_Working_set
+    -
+      uuid: 167ab4687ead43418913d14328b4532e
+      name: 'Agent Write OPS'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentSvcHost_Write_Ops
+        -
+          sortorder: '1'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgStEPAgentHost_Write_Ops
+        -
+          sortorder: '2'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstEpaCss_Write_Ops
+        -
+          sortorder: '3'
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Agent_processes_Active_agent
+            key: ST_FgstCapturer_Write_Ops
+    -
+      uuid: 009e25e815d34b75aab7e30533227b45
+      name: 'Consoles CPU time'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_CPU_Time
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_CPU_Time
+    -
+      uuid: 0205449c3fdd4200a8d5772637c34e14
+      name: 'Consoles IOPS'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_IOPS
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_IOPS
+    -
+      uuid: c0a134d61a7746f0895ab2425a11ccea
+      name: 'Consoles Private Bytes'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_Private_bytes
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_Private_bytes
+    -
+      uuid: f31559daf9f8492194ce821ce1f38b1c
+      name: 'Consoles Read OPS'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_Read_Ops
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_Read_Ops
+    -
+      uuid: 0b2d4bad1cd3497c96d30b3f7413f603
+      name: 'Consoles Threads'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_Thread_Count
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_Thread_Count
+    -
+      uuid: 08e9dc6178ca482ebc04798120901475
+      name: 'Consoles Working_sets'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_Working_set
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_Working_set
+    -
+      uuid: 583a5c62e7194d13a3f40bf693f62736
+      name: 'Consoles Write OPS'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_AdminConsole_Write_Ops
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Consoles_Active_agent
+            key: ST_SearchClient_Write_Ops
+    -
+      uuid: 354f57dfc8404efc80633fc64f828605
+      name: 'FG7 CPU usage'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_CPU_Time
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_CPU_Time
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_CPU_Time
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_CPU_Time
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_CPU_Time
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_CPU_Time
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_CPU_Time
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_CPU_Time
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_CPU_Time
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_CPU_Time
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_CPU_Time
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_CPU_Time
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_CPU_Time
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_CPU_Time
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_CPU_Time
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_CPU_Time
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_CPU_Time
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_CPU_Time
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_CPU_Time
+    -
+      uuid: a582cbcd4f64463b92da45d19c04c2f9
+      name: IOPS
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_IOPS
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_IOPS
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_IOPS
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_IOPS
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_IOPS
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_IOPS
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_IOPS
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_IOPS
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_IOPS
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_IOPS
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_IOPS
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_IOPS
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_IOPS
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_IOPS
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_IOPS
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_IOPS
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_IOPS
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_IOPS
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_IOPS
+    -
+      uuid: d8ef005ec6694c5598d5bbdbdf4eebd5
+      name: 'Private bytes'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_Private_bytes
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_Private_bytes
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_Private_bytes
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_Private_bytes
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_Private_bytes
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_Private_bytes
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_Private_bytes
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_Private_bytes
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_Private_bytes
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_Private_bytes
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_Private_bytes
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_Private_bytes
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_Private_bytes
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_Private_bytes
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_Private_bytes
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_Private_bytes
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_Private_bytes
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_Private_bytes
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_Private_bytes
+    -
+      uuid: 3fb6b195a0ea45959c42ec757bd7dc0c
+      name: 'Read ops'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_Read_Ops
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_Read_Ops
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_Read_Ops
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_Read_Ops
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_Read_Ops
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_Read_Ops
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_Read_Ops
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_Read_Ops
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_Read_Ops
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_Read_Ops
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_Read_Ops
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_Read_Ops
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_Read_Ops
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_Read_Ops
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_Read_Ops
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_Read_Ops
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_Read_Ops
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_Read_Ops
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_Read_Ops
+    -
+      uuid: a03f947d9ec64dcd8654c2d2caf68279
+      name: 'Thread counts'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_Thread_Count
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_Thread_Count
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_Thread_Count
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_Thread_Count
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_Thread_Count
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_Thread_Count
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_Thread_Count
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_Thread_Count
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_Thread_Count
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_Thread_Count
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_Thread_Count
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_Thread_Count
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_Thread_Count
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_Thread_Count
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_Thread_Count
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_Thread_Count
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_Thread_Count
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_Thread_Count
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_Thread_Count
+    -
+      uuid: d1928c0aad0e48f5a725d02b83ca0326
+      name: 'Working sets'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_Working_set
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_Working_set
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_Working_set
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_Working_set
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_Working_set
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_Working_set
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_Working_set
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_Working_set
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_Working_set
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_Working_set
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_Working_set
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_Working_set
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_Working_set
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_Working_set
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_Working_set
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_Working_set
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_Working_set
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_Working_set
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_Working_set
+    -
+      uuid: 1a75551275db4fc99d2c11c0e348b376
+      name: 'Write ops'
+      type: STACKED
+      ymin_type_1: FIXED
+      graph_items:
+        -
+          color: 1A7C11
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_CentralServer_Write_Ops
+        -
+          sortorder: '1'
+          color: '274482'
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DatabaseCache_Write_Ops
+        -
+          sortorder: '2'
+          color: F63100
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_DeviceInventoryServer_Write_Ops
+        -
+          sortorder: '3'
+          color: 2774A4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Dfp_Write_Ops
+        -
+          sortorder: '4'
+          color: A54F10
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaControlServer_Write_Ops
+        -
+          sortorder: '5'
+          color: FC6EA3
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_EpaProxyServer_Write_Ops
+        -
+          sortorder: '6'
+          color: 6C59DC
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_HealthMonitor_Write_Ops
+        -
+          sortorder: '7'
+          color: AC8C14
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_IcapServer_Write_Ops
+        -
+          sortorder: '8'
+          color: 611F27
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_InvestigationCenterServer_Write_Ops
+        -
+          sortorder: '9'
+          color: F230E0
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_MailProcessingServer_Write_Ops
+        -
+          sortorder: '10'
+          color: 5CCD18
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_RecognitionServer_Write_Ops
+        -
+          sortorder: '11'
+          color: BB2A02
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_ReportsServer_Write_Ops
+        -
+          sortorder: '12'
+          color: 5A2B57
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_Searcher_Write_Ops
+        -
+          sortorder: '13'
+          color: 89ABF8
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SearchServer_Write_Ops
+        -
+          sortorder: '14'
+          color: 7EC25C
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SecurityCenterServer_Write_Ops
+        -
+          sortorder: '15'
+          color: 2B5429
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SiemServer_Write_Ops
+        -
+          sortorder: '16'
+          color: 790E1F
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_UsersAuthServer_Write_Ops
+        -
+          sortorder: '17'
+          color: FD5434
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechServer_Write_Ops
+        -
+          sortorder: '18'
+          color: 8048B4
+          calc_fnc: MIN
+          item:
+            host: FG7_Server_components_Active_agent
+            key: ST_SpeechProc_Write_Ops
