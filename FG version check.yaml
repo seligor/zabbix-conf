@@ -1,0 +1,52 @@
+zabbix_export:
+  version: '6.0'
+  date: '2024-07-30T16:28:23Z'
+  groups:
+    -
+      uuid: bda7b61be09a40eb933e175baa1890bd
+      name: FG-servers
+  templates:
+    -
+      uuid: db9f0eb7e807476e94e0a6c74e9e6228
+      template: FG_version_check
+      name: FG_version_check
+      groups:
+        -
+          name: FG-servers
+      items:
+        -
+          uuid: f3a0e695cbc4457da511d0bed6ccac1e
+          name: 'Actual version check'
+          type: EXTERNAL
+          key: st_site_check.py
+          delay: 15m
+          history: 365d
+          trends: '0'
+          value_type: TEXT
+        -
+          uuid: 64a104d1386947feb434038fe55a7592
+          name: 'ST version http API JSON'
+          type: HTTP_AGENT
+          key: Version
+          delay: 15m
+          history: 365d
+          trends: '0'
+          value_type: TEXT
+          authtype: BASIC
+          username: admin
+          description: '$.clients.[0].version'
+          inventory_link: SOFTWARE_APP_A
+          preprocessing:
+            -
+              type: JSONPATH
+              parameters:
+                - $.Version
+          url: 'http://{HOST.CONN}:39001/api/v1/services/update'
+          triggers:
+            -
+              uuid: befae385a0554bd99b6d6d534bb42ce3
+              expression: 'last(/FG_version_check/Version,#1:now-15m)<>last(/FG_version_check/Version,#1:now-1m)'
+              recovery_mode: RECOVERY_EXPRESSION
+              recovery_expression: 'last(/FG_version_check/Version,#1:now-6h)=last(/FG_version_check/Version,#1:now-1m)'
+              name: 'ST version changed on {HOST.CONN}'
+              priority: INFO
