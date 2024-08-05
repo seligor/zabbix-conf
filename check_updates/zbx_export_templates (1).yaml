@@ -1,0 +1,29 @@
+zabbix_export:
+  version: '6.0'
+  date: '2024-08-05T11:43:08Z'
+  groups:
+    -
+      uuid: bda7b61be09a40eb933e175baa1890bd
+      name: FG-servers
+  templates:
+    -
+      uuid: af890295d393442caa8c8a15dbcf0a66
+      template: 'FG updates check'
+      name: 'FG updates check'
+      groups:
+        -
+          name: FG-servers
+      items:
+        -
+          uuid: 122b4c17909c405c9ba78ecd3a05e5f4
+          name: 'Available version check'
+          type: EXTERNAL
+          key: 'diff_check.py["{HOST.CONN}"]'
+          trends: '0'
+          value_type: TEXT
+          inventory_link: SOFTWARE_FULL
+          preprocessing:
+            -
+              type: DISCARD_UNCHANGED
+              parameters:
+                - ''
